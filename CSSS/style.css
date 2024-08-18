@@ -152,3 +152,52 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide the scroll bar while loading */
+}
+
+
+
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.preloader img {
+  animation: spin 3s linear infinite;
+  transition: all;
+  width: 150px;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding-bottom: 30px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+.preloader p {
+font-size: 24px;
+font-family: "Megrim", sans-serif;
+color: black;
+margin: 0;
+}
