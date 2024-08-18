@@ -1,0 +1,154 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#about, #work, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin: 20px 0;
+}
+.my-ux-skills {
+    background-color: #8C9086;
+    padding: 20px;
+  }
+  .h2 {
+    font-family: "poly", sans-serif;
+    font-size: 92px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .skills-box {
+    display: flex;
+  }
+  .skill {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+  .skill-title {
+    font-family: "Poly", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .skill-desc {
+    font-family: "poly", sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  /*Project section*/
+  .h3 {
+    font-family: "poly", sans-serif;
+    font-size: 92px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    grid-gap: 50px;
+  }
+  .project1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    grid-template-areas: "img text";
+  }
+  .project1 img {
+    grid-area: img;
+    width: 100%;
+    object-fit: cover;
+  }
+  .project-details1 {
+    grid-area: text;
+    padding: 30px;
+  }
+  .project2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px;
+    grid-template-areas: "text img";
+  }
+  .project2 img {
+    grid-area: img;
+    width: 100%;
+    object-fit: cover;
+  }
+  .project-details2 {
+    grid-area: text;
+    padding-left: 0px;
+    padding: 30px;
+  }
+  .project-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .project-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  #bridges-img:hover {
+    background-color: white;
+    opacity: 20%;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  #calm-img:hover {
+    background-color: white;
+    opacity: 20%;
+    cursor: pointer;
+    transform: scale(1.05)
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
