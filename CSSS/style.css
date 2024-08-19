@@ -45,6 +45,10 @@ header nav ul li a {
 #about, #work, #contact {
     padding: 50px 20px;
     text-align: center;
+  
+}
+.about: hover {
+  text-decoration: underline 2px;
 }
 
 .portfolio-item {
@@ -156,11 +160,6 @@ footer {
 
 
 /* styles.css */
-body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Hide the scroll bar while loading */
-}
 
 
 
